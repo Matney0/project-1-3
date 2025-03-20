@@ -1,7 +1,3 @@
-<script>
-   
-
-let submitbutton = document.getElementById('submitbutton');
-submitbutton.addEventListener('click', function() {
-document.write('Thank you for your order!')};    
-</script>
+function myFunction() {
+  document.getElementById("submitbutton").innerHTML = "Thank you for your order!";
+}
