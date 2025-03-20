@@ -156,10 +156,13 @@
           </fieldset>
         </fieldset>
         <fieldset id="submitbutton">
-          <input type="button" value="Submit" />
+          //Add an onclick event handler to the button element that displays the submitMsg div element when the button is clicked.
+          <input type="button" value="Submit" onclick = "document.getElementById('submitMsg').style.display = 'block';" />
         </fieldset>
         
-        <div id="submitMsg"></div>
+        <div id="submitMsg">
+          'Thank you for your order!'
+        </div>
      </form>
    </article>
 </body>
